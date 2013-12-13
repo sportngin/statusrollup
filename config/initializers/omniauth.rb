@@ -6,5 +6,5 @@ end
 
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :developer unless Rails.env.production?
-  provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: "public_repo"
+  provider :github, Rails.application.config.github[:key], Rails.application.config.github[:secret], scope: "public_repo"
 end
