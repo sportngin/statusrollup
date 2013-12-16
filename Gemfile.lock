@@ -152,7 +152,7 @@ GEM
       omniauth (~> 1.0)
     paul_revere (1.1)
       rails (~> 3.0)
-    pg (0.14.1)
+    pg (0.17.0)
     poltergeist (1.0.2)
       capybara (~> 1.1)
       childprocess (~> 0.3)
