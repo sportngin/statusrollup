@@ -17,6 +17,7 @@ gem 'rack-canonical-host'
 gem 'paul_revere'
 gem 'kramdown'
 gem 'conflate-rails'
+gem 'okcomputer'
 
 group :development do
   gem 'localtunnel'

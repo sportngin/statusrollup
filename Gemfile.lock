@@ -140,6 +140,7 @@ GEM
     oauth2 (0.5.2)
       faraday (~> 0.7)
       multi_json (~> 1.0)
+    okcomputer (0.5.3)
     omniauth (1.1.0)
       hashie (~> 1.2)
       rack
@@ -273,6 +274,7 @@ DEPENDENCIES
   kramdown
   launchy
   localtunnel
+  okcomputer
   omniauth
   omniauth-github
   paul_revere
