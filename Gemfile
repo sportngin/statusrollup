@@ -19,6 +19,7 @@ gem 'kramdown'
 gem 'conflate-rails'
 gem 'okcomputer'
 gem 'therubyracer'
+gem 'unicorn'
 
 group :development do
   gem 'localtunnel'
