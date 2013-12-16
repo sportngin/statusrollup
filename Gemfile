@@ -18,6 +18,7 @@ gem 'paul_revere'
 gem 'kramdown'
 gem 'conflate-rails'
 gem 'okcomputer'
+gem 'therubyracer'
 
 group :development do
   gem 'localtunnel'
